@@ -15,16 +15,14 @@ public class Principal {
         }
 
         //Armazena o estado inicial
-        int estado_inicial = 0;
+        int estado_inicial = 0;        
         //Armazena o estado final
         int estado_final = 3;
-
         //Armazena o estado atual
         int estado_atual = estado_inicial;
-
         //Armazena o estado próximo
         int estado_proximo = -1;
-
+        
         //Indice da letra da entrada
         int i = 0;
 
@@ -43,11 +41,11 @@ public class Principal {
             if (estado_atual == 0 && avaliar == 'b') {
                 estado_proximo = 1;
             }
-            // Estado 1 para 1
+            // Estado 1 para 2
             if (estado_atual == 1 && avaliar == 'a') {
                 estado_proximo = 2;
             }
-            // Estado 1 para 1
+            // Estado 1 para 2
             if (estado_atual == 1 && avaliar == 'b') {
                 estado_proximo = 2;
             }
